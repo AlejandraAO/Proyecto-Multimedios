@@ -2,10 +2,9 @@
 nombre tema: proyMultimedios
 autor: Ale
 */
-@import url('vendor/bootstrap/css/bootstrap.css'); 
-@import url('vendor/bootstrap/js/bootstrap.js'); 
 
-
+@import url('vendor/bootstrap/css/bootstrap.css');
+@import url('vendor/bootstrap/js/bootstrap.js');
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -266,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -665,7 +664,7 @@ aside.clients img {
 
 section#contact {
     background-color: black;
-    background-image: url('../img/map-image.png');
+    background-image: url(http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
