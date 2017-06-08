@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    background-image: url('http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/header-bg.jpg');
+    background-image: url('http://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -650,7 +650,7 @@ section h3.section-subheading-contact-method {
 
 .team-member h4 {
     margin-top: 25px;
-    margin-bottom: 0;
+    margin-bottomhttp://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg: 0;
     text-transform: none;
 }
 
@@ -664,7 +664,7 @@ aside.clients img {
 
 section#contact {
     background-color: black;
-    background-image: url(http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/map-image.png);
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
