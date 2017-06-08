@@ -1,7 +1,8 @@
-/*
-nombre tema: proyMultimedios
-autor: Ale
-*/
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
 
 body {
     overflow-x: hidden;
@@ -263,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    background-image: url('http://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg');
+    background-image: url('../img/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -648,7 +649,7 @@ section h3.section-subheading-contact-method {
 
 .team-member h4 {
     margin-top: 25px;
-    margin-bottomhttp://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg: 0;
+    margin-bottom: 0;
     text-transform: none;
 }
 
@@ -662,7 +663,7 @@ aside.clients img {
 
 section#contact {
     background-color: black;
-    background-image: url(http://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg);
+    background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }

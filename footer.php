@@ -18,7 +18,7 @@
     </div>
 </footer>
 
+        <?php wp_head(); ?>
 </body>
 
 </html>
-<?php wp_enqueue_script("jquery"); ?>

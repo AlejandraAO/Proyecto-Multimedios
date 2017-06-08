@@ -21,7 +21,7 @@ add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
        
         wp_enqueue_style('boostrap-min', get_template_directory_uri().'/vendor/bootstrap/css/bootstrap.min.css');
         wp_enqueue_style('font-awesome', get_template_directory_uri().'/vendor/font-awesome/css/font-awesome.min.css');
-        wp_enqueue_style('agency', get_template_directory_uri().'/vendor/agency/agency.css');
+        wp_enqueue_style('agency', get_template_directory_uri().'/css/agency.css');
         wp_enqueue_style('style',get_stylesheet_uri());
         
         wp_enqueue_script( 'jquery_js', get_template_directory_uri() . '/js/jquery.min.js');
