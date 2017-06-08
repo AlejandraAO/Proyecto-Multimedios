@@ -64,7 +64,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/1.jpg" alt="">
+                            <img class="img-circle img-responsive" src="<?php bloginfo('template_directory'); ?> /img/about/1.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -78,7 +78,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/2.png" alt="">
+                           <img class="img-circle img-responsive" src="<?php bloginfo('template_directory'); ?> /img/about/2.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -92,7 +92,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/3.jpg" alt="">
+                            <img class="img-circle img-responsive" src="<?php bloginfo('template_directory'); ?> /img/about/3.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -106,7 +106,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/4.jpg" alt="">
+                         <img class="img-circle img-responsive" src="<?php bloginfo('template_directory'); ?> /img/about/4.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -230,7 +230,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/heberZuniga.jpg" class="img-responsive img-circle img-team" alt="">
+                    <img class="img-responsive img-circle img-team" src="<?php bloginfo('template_directory'); ?> /img/team/heberZuniga.jpg" alt="">
                     <h4>Heber Zúñiga</h4>
                     <p class="text-muted">Diseñador, Programador</p>
                     <ul class="list-inline social-buttons">
@@ -245,7 +245,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/alejandraArroyo.jpg" class="img-responsive img-circle img-team" alt="">
+                    <img class="img-responsive img-circle img-team" src="<?php bloginfo('template_directory'); ?> /img/team/alejandraArroyo.jpg" alt="">
                     <h4>Alejandra Arroyo</h4>
                     <p class="text-muted">Analista, Programadora</p>
                     <ul class="list-inline social-buttons">
@@ -260,7 +260,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/jonathanGranados.jpg" class="img-responsive img-circle img-team" alt="">
+                   <img class="img-responsive img-circle img-team" src="<?php bloginfo('template_directory'); ?> /img/team/jonathanGranados.jpg" alt="">
                     <h4>Jonathan Granados</h4>
                     <p class="text-muted">QA, Programador</p>
                     <ul class="list-inline social-buttons">

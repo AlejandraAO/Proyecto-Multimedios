@@ -36,7 +36,7 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                     <a class="navbar-brand page-scroll" href="#page-top">
-                        <img class="img-responsive center-block" src="http://localhost/wordpress-4.7.4/wordpress/wp-content/uploads/2017/06/logobar.png" alt="">
+                    <img class="img-responsive center-block" src= "<?php bloginfo('template_directory');?>/img/logobar.png" alt="">
                     </a>
                 </div>
 
