@@ -300,7 +300,10 @@
                 <h3 class="section-subheading-contact-method text-muted">ventas@ticosoft.com</h3>
                 <h3 class="section-subheading-contact-method text-muted">+506 2777 7777</h3>
                 <h3 class="section-subheading-contact text-muted">¿Tienes alguna idea en mente? Envíanos un mensaje y con gusto le atenderemos.</h3>
-
+                <div class="row">
+                  <div id="map">
+                    </div>
+              </div>
             </div>
         </div>
         <div class="row">

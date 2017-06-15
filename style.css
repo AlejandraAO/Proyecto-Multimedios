@@ -3,6 +3,23 @@ nombre tema: proyMultimedios
 autor: Ale
 */
 
+#map{
+  display: inline-block;
+  width: 90%;
+  height: 350px;
+  margin: -25px 0 20px 0;
+  /*
+    -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
+    */
+}
+#map.large{
+  height:200px;
+}
+
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -263,7 +280,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    background-image: url('http://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -648,7 +664,7 @@ section h3.section-subheading-contact-method {
 
 .team-member h4 {
     margin-top: 25px;
-    margin-bottomhttp://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg: 0;
+    margin-bottom: 0;
     text-transform: none;
 }
 
@@ -664,7 +680,7 @@ aside.clients img {
 
 section#contact {
     background-color: black;
-    background-image: url(http://localhost/wordpress/wp-content/uploads/2017/06/header-bg.jpg);
+    background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }

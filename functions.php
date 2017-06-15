@@ -1,19 +1,4 @@
-<!--
 
-function load_assets(){
-    wp_enqueue_style('style',get_stylesheet_uri());
-}
-add_action('wp_enqueue_scripts','load_assets');
-
-function wpbootstrap_scripts_with_jquery()
-{
-	// Register the script like this for a theme:
-	wp_register_script( 'custom-script', get_template_directory_uri() . '/js/bootstrap.js', array( 'jquery' ) );
-	// For either a plugin or a theme, you can then enqueue the script:
-	wp_enqueue_script( 'custom-script' );
-}
-add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
--->
 
 
 <?php
@@ -30,9 +15,29 @@ add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
         //wp_enqueue_script( 'bootstrap js', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.min.js',array( 'jquery' ) );
 
         wp_enqueue_script( 'agency_js', get_template_directory_uri() . '/js/agency.min.js');
+        wp_enqueue_script( 'ajax_googleapis', 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js');
+        wp_enqueue_script( 'maps_google', 'http://maps.google.com/maps/api/js?sensor=true');
+        wp_enqueue_script( 'gmaps', get_template_directory_uri() . '/js/gmaps.js');
+        
+        wp_register_script( 'gmap', get_template_directory_uri() . '/js/gmap.js');
+
+        
+        $translation_array = array(
+            'directorio' => get_stylesheet_directory_uri()   
+            );
+    
+        //el wp_localize_script funciona para enviar datos desde el archivo functions.php a un archivo javascritp o jquery
+        //necesario para enviar la ruta del get_template_directory_uri() al gmap.js, esto para llamar una imagen 
+        //utilizada como marcador que indica la pocision de la empresa.
+        wp_localize_script( 'gmap', 'ruta', $translation_array );
+
+        wp_enqueue_script( 'gmap', get_template_directory_uri() . '/js/gmap.js');
+        
+        
         
     }
     add_action('wp_enqueue_scripts','load_assets');
 
+    
 ?>
  
