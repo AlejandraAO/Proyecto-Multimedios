@@ -202,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-    background-color: #91CA00;
+ background-color: #91CA00;
 }
 
 .navbar-custom .nav li a {
@@ -219,11 +219,11 @@ fieldset[disabled] .btn-xl.active {
     outline: none;
 }
 
-.navbar-custom .navbar-nav>.active>a {
+/*.navbar-custom .navbar-nav>.active>a {
     border-radius: 0;
     color: white;
     background-color: #91CA00;
-}
+}*/
 
 .navbar-custom .navbar-nav>.active>a:hover,
 .navbar-custom .navbar-nav>.active>a:focus {

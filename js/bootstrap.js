@@ -1996,18 +1996,18 @@ if (typeof jQuery === 'undefined') {
       '[data-target="' + target + '"],' +
       this.selector + '[href="' + target + '"]'
 
-    var active = $(selector)
+    /*var active = $(selector)
       .parents('li')
-      .addClass('active')
+      .addClass('active')*/
 
-    if (active.parent('.dropdown-menu').length) {
+    /*if (active.parent('.dropdown-menu').length) {
       active = active
         .closest('li.dropdown')
         .addClass('active')
     }
 
     active.trigger('activate.bs.scrollspy')
-  }
+  }*/
 
   ScrollSpy.prototype.clear = function () {
     $(this.selector)
@@ -2092,7 +2092,7 @@ if (typeof jQuery === 'undefined') {
       selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
     }
 
-    if ($this.parent('li').hasClass('active')) return
+    /*if ($this.parent('li').hasClass('active')) return
 
     var $previous = $ul.find('.active:last a')
     var hideEvent = $.Event('hide.bs.tab', {
@@ -2100,16 +2100,16 @@ if (typeof jQuery === 'undefined') {
     })
     var showEvent = $.Event('show.bs.tab', {
       relatedTarget: $previous[0]
-    })
+    })*/
 
-    $previous.trigger(hideEvent)
+    /*$previous.trigger(hideEvent)
     $this.trigger(showEvent)
 
     if (showEvent.isDefaultPrevented() || hideEvent.isDefaultPrevented()) return
 
     var $target = $(selector)
 
-    this.activate($this.closest('li'), $ul)
+    /*this.activate($this.closest('li'), $ul)
     this.activate($target, $target.parent(), function () {
       $previous.trigger({
         type: 'hidden.bs.tab',
@@ -2119,7 +2119,7 @@ if (typeof jQuery === 'undefined') {
         type: 'shown.bs.tab',
         relatedTarget: $previous[0]
       })
-    })
+    })*/
   }
 
   Tab.prototype.activate = function (element, container, callback) {

@@ -15,7 +15,7 @@
 <!-- Services Section -->
 <section id="services">
     <div class="container">
-        <div class="row">
+        <div class="">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">¿Qué hacemos?</h2>
                 <h3 class="section-subheading text-muted">Apoyamos su negocio ofreciendo software de calidad que se adapta a sus necesidades.</h3>
