@@ -219,11 +219,11 @@ fieldset[disabled] .btn-xl.active {
     outline: none;
 }
 
-/*.navbar-custom .navbar-nav>.active>a {
+.navbar-custom .navbar-nav>.active>a {
     border-radius: 0;
     color: white;
     background-color: #91CA00;
-}*/
+}
 
 .navbar-custom .navbar-nav>.active>a:hover,
 .navbar-custom .navbar-nav>.active>a:focus {
