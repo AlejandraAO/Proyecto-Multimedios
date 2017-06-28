@@ -32,7 +32,9 @@
         wp_localize_script( 'gmap', 'ruta', $translation_array );
 
         wp_enqueue_script( 'gmap', get_template_directory_uri() . '/js/gmap.js');
-        
+        //Validation
+        wp_enqueue_script( 'jqBootstrapValidation_js', get_template_directory_uri() . '/js/jqBootstrapValidation.js');
+        wp_enqueue_script( 'contact_me_js', get_template_directory_uri() . '/js/contact_me.js');
         
         
     }
