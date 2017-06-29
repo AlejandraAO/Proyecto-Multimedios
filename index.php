@@ -1,5 +1,8 @@
 <?php get_header() ?>
 <!-- Header -->
+
+<?php the_content() ?>
+
 <header>
     <div class="container">
         <div class="intro-text">
